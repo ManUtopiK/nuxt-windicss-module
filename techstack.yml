@@ -1,0 +1,609 @@
+repo_name: ManUtopiK/nuxt-windicss-module
+report_id: b3f450189f5f8def2c06d6b8b8f2b65c
+repo_type: Public
+timestamp: '2023-12-14T18:34:29+00:00'
+requested_by: antfu
+provider: github
+branch: master
+detected_tools_count: 44
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 4.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Stylus
+  description: Expressive, robust, feature-rich CSS language built for nodejs
+  website_url: http://stylus-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1172/stylus.png
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-08-12 12:09:22.000000000 Z
+- name: Vuetify
+  description: Material Component Framework for VueJS 2
+  website_url: https://vuetifyjs.com/
+  version: 2.5.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/6163/PzNbCwXH.jpg
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-08-12 12:09:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: ".babelrc"
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-26 12:04:29.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-26 12:04:29.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: test/fixtures/basic/app.html
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-10 10:24:56.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-08-12 12:09:22.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.13.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 27.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.175
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.14.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: auto-changelog
+  description: Command line tool for generating a changelog from git tags and commit
+    history
+  package_url: https://www.npmjs.com/auto-changelog
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17867/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-08-12 12:14:55.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: bootstrap-vue
+  description: BootstrapVue
+  package_url: https://www.npmjs.com/bootstrap-vue
+  version: 2.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17817/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-08-12 12:09:22.000000000 Z
+- name: element-ui
+  description: A Component Library for Vue.js
+  package_url: https://www.npmjs.com/element-ui
+  version: 2.15.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16240/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 7.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: loader-utils
+  description: Utils for webpack loaders
+  package_url: https://www.npmjs.com/loader-utils
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16191/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+  vulnerabilities:
+  - name: Prototype pollution in webpack loader-utils
+    cve_id: CVE-2022-37601
+    cve_url: https://github.com/advisories/GHSA-76p3-8jx3-jpfq
+    detected_date: Nov 5
+    severity: critical
+    first_patched: 1.4.1
+  - name: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2022-37599
+    cve_url: https://github.com/advisories/GHSA-hhq3-ff78-jv3g
+    detected_date: Nov 16
+    severity: high
+    first_patched: 1.4.2
+  - name: loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)
+      via url variable
+    cve_id: CVE-2022-37603
+    cve_url: https://github.com/advisories/GHSA-3rfm-jhwj-7488
+    detected_date: Nov 16
+    severity: high
+    first_patched: 1.4.2
+- name: pug-plain-loader
+  description: Pug to plain html loader for webpack
+  package_url: https://www.npmjs.com/pug-plain-loader
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18298/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: release-it
+  description: CLI release tool for Git repos and npm packages
+  package_url: https://www.npmjs.com/release-it
+  version: 14.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 10.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:21:23.000000000 Z
+- name: stylus-loader
+  description: Stylus loader for webpack
+  package_url: https://www.npmjs.com/stylus-loader
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16232/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anthony Fu
+  last_updated_on: 2021-10-12 13:20:45.000000000 Z
+- name: upath
+  description: A proxy to `path`
+  package_url: https://www.npmjs.com/upath
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18193/default_63c787c86dc2f82d999c8bfdd3f0cd4aa18c2145.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt-windicss-module/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Harlan Wilton
+  last_updated_on: 2021-03-03 03:37:07.000000000 Z
